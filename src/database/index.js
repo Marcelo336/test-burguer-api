@@ -1,4 +1,5 @@
 import { Sequelize } from 'sequelize';
+import 'dotenv/config';
 import mongoose from 'mongoose';
 import Category from '../app/models/Category.js';
 import Product from '../app/models/Product.js';
